@@ -17,7 +17,7 @@ public class Trap2Move : MonoBehaviour
     {
         if(Player.position.z > 25)
         {
-            rb.AddForce(-20, 0, 0);
+            rb.AddForce(-20, 0, 0, ForceMode.Impulse);
         }
     }
 }
